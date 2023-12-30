@@ -1,0 +1,9 @@
+00710193        // addi x3, x2, 7    // Add immediate value 7 to x2 and store the result in x3
+00812423        // sw x8, 8(x2)      // Store the value in x8 at the address calculated by adding 8 to the value in x2
+40118233        // sub x4, x3, x1    // Subtract x1 from x3 and store the result in x4
+00812283        // lw x5, 8(x2)      // Load the value at the address calculated by adding 8 to the value in x2 into x5
+00530fb3        // add x31, x6, x5   // Add x6 and x5, and store the result in x31 (forwarding needed)
+00316393        // ori x7, x2, 3     // Bitwise OR the value in x2 with 3 and store the result in x7
+00712193        // addi x3, x2, 9    // Add immediate value 9 to x2 and store the result in x3 (stalling needed)
+00213113        // addi x6, x2, 2    // Add immediate value 2 to x2 and store the result in x6
+01f124a3        // sw x31, 9(x2)     // Store the value in x31 at the address calculated by adding 9 to the value in x2
